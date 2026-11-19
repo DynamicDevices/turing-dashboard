@@ -18,6 +18,22 @@ Warnings can bring a newly affected page forward. Manual page pinning takes
 priority over warnings. Optional timed dimming and a user-service example support
 everyday desktop use. See [controls and warnings](docs/operation.md).
 
+## A look at the pages
+
+![Laptop, AI workstation and Proxmox dashboard pages](docs/images/dashboard-pages.png)
+
+Left to right: Framework laptop, AI workstation and Proxmox lab. These are
+**synthetic previews**, not live infrastructure readings or photographs of the
+display. All names, figures, guest states and build details are examples.
+The AI page deliberately says inference is not measured; a loaded model alone
+does not establish activity. The build timer shows observed stage duration.
+
+Full-size pages: [laptop](docs/images/laptop.png),
+[AI workstation](docs/images/ai-workstation.png), [Proxmox](docs/images/proxmox.png).
+Regenerate with `.venv/bin/python docs/render_previews.py` after installing the
+package. This uses the real renderers with mocked system readings and no USB,
+local snapshots or network access.
+
 ## Status and hardware
 
 This is an early release candidate. The original laptop/AI-workstation dashboard
