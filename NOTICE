@@ -1,0 +1,20 @@
+turing-dashboard
+
+The Turing Revision A protocol implementation is adapted from:
+  turing-smart-screen-python
+  https://github.com/mathoudebine/turing-smart-screen-python
+  library/lcd/lcd_comm_rev_a.py and library/lcd/lcd_comm.py
+  Copyright (C) 2021 Matthieu Houdebine (mathoudebine)
+  SPDX-License-Identifier: GPL-3.0-or-later
+  Reference revision: 866e5ba999de0ed9373a46b6f2a714ef8322cfce
+
+This project retains GPL-3.0-or-later for the adapted implementation and its
+combined application. See LICENSE for the complete GNU GPL version 3 text.
+No upstream fonts, theme artwork, firmware, or vendor binaries are bundled.
+Installed Python dependencies retain their own licences.
+
+This is an unofficial host-side application, not replacement device firmware.
+TURMO, Turing, TURZX, Framework and Proxmox names belong to their respective
+owners. Their mention does not imply affiliation or endorsement.
+
+Assisted-by: Briar.
