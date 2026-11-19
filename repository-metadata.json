@@ -1,0 +1,10 @@
+{
+  "repository": "DynamicDevices/turing-dashboard",
+  "repository_url": "https://github.com/DynamicDevices/turing-dashboard",
+  "visibility": "public",
+  "version": "0.2.0",
+  "description": "Linux laptop and infrastructure dashboards for Turing Revision A USB displays",
+  "topics": ["turing-smart-screen", "turmo", "usb-display", "linux", "python", "monitoring", "proxmox"],
+  "license_spdx": "GPL-3.0-or-later",
+  "publication_status": "development candidate; no versioned release published"
+}
