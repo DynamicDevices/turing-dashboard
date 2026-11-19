@@ -1,0 +1,13 @@
+[Unit]
+Description=Turing USB dashboard
+
+[Service]
+Type=simple
+ExecStart=%h/.local/share/turing-dashboard/venv/bin/turing-dashboard --config %h/.config/turing-dashboard/config.json
+Restart=on-failure
+RestartSec=10
+RestartPreventExitStatus=2
+UMask=0077
+
+[Install]
+WantedBy=default.target

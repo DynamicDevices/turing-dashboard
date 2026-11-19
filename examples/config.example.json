@@ -1,0 +1,30 @@
+{
+  "serial_port": "AUTO",
+  "brightness": 50,
+  "reverse_portrait": true,
+  "refresh_seconds": 2,
+  "page_seconds": 10,
+  "stale_seconds": 90,
+  "laptop_name": "LAPTOP",
+  "pages": [
+    {"kind": "laptop", "name": "Laptop"},
+    {
+      "kind": "ai-tools",
+      "name": "AI workstation",
+      "source": "ai-tools",
+      "snapshot": "~/.cache/ai-box-monitor/snapshot.json"
+    },
+    {
+      "kind": "proxmox",
+      "name": "AESL Proxmox",
+      "source": "aesl-proxmox",
+      "snapshot": "~/.cache/esl-pve-monitor/snapshot.json"
+    },
+    {
+      "kind": "proxmox",
+      "name": "DD Proxmox",
+      "source": "dd-proxmox",
+      "snapshot": "~/.cache/dd-pve-monitor/snapshot.json"
+    }
+  ]
+}
